@@ -174,7 +174,8 @@ width:121px;
 }
 
 
-body {margin:0;}
+body {
+	margin: 0;
 
 ul {
   list-style-type: none;
