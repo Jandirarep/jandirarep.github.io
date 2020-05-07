@@ -73,7 +73,6 @@ margin: auto;
 background: white;
 }
 
-
 .mybuttons {
 	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
@@ -99,12 +98,12 @@ text-indent:0;
 	display:inline-block;
 	color:#ffffff;
 	font-family:Verdana;
-	font-size:19px;
+	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-height:50px;
-	line-height:50px;
-width:140px;
+height:30px;
+	line-height:30px;
+width:161px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:0px 1px 0px #283966;
