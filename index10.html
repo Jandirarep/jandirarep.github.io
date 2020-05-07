@@ -1,30 +1,66 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Layout 3 colunas</title>
-<link type="text/css" rel="stylesheet" media="screen" href="estilos.css" />
- 
+<title>CSS Template</title>
+<base target="_self">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: yellow;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
 </head>
- 
 <body>
-<div id="site">
- 
-<div id="header"></div>
-  <a href="representadas.html" class="button">Representadas</a>
-<a href="catálogos.html" class="button">Catálogos</a>
-
- 
-<div id="conteudo"><!-- abrimos a div conteudo -->
- 
-<div id="conteudo-left"></div>
-<div id="conteudo-right"></div>
- 
-</div><!-- aqui fechamos a div conteudo -->
- 
-<div id="footer"></div>
- 
-
- 
+<div class="sidenav">
+  <a href="#http://www.jandirarep.com.br/catalogos.html">Representadas</a>
+  <a href="#">Catálogos</a>
+  <a href="#">Contato</a>
 </div>
+
+<div class="content">
+  <h2>Jandira Representações</h2>
+  <img src="https://raw.githubusercontent.com/Jandirarep/jandirarep.github.io/master/Captura%20de%20Tela%202020-04-30%20a%CC%80s%2012.40.19.png">
+  <p>Links abrem aqui, pode ser?!</p>
+</div>
+
 </body>
 </html>
