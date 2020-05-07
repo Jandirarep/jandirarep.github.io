@@ -48,15 +48,15 @@ body {
 }
 #content
 {
-width: 800px;
-height: 600px;
+width: 1000px;
+height: 400px;
 position: absolute;
 top: 0; 
 bottom: 0;
 left: 0; 
 right: 0;
 margin: auto;
-background: black;
+background: white;
 }
 
 
