@@ -46,6 +46,21 @@ body {
   padding-left: 40px;
   position: absolute;
 }
+#content
+{
+width: 800px;
+height: 600px;
+position: absolute;
+top: 0; 
+bottom: 0;
+left: 0; 
+right: 0;
+margin: auto;
+background: black;
+}
+
+
+
 </style>
 </head>
 <body>
