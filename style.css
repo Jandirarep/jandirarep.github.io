@@ -23,17 +23,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
-  text-shadow: 0 0px 0 #fff;
+  text-shadow: 0 1px 0 #fff;
 }
 
 header {
-  min-height: 80px;
+  min-height: 60px;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 3px solid #ccc;
-  background: #FFFFFF;
+  border-bottom: 1px solid #ccc;
+  background: #ECECEC;
   z-index: 2;
 }
 
@@ -60,8 +60,8 @@ header li:first-child {
 header li a {
   display: block;
   padding: 0 10px;
-  color: #184856;
-  font-size: 20px;
+  color: #999;
+  font-size: 16px;
   line-height: 30px;
   text-decoration: none;
   -webkit-transition: all 300ms ease;
@@ -81,7 +81,7 @@ input#control-nav {
 
 /* content */
 section {
-  padding: 160px 20px 50px;
+  padding: 80px 20px 50px;
   border-top: 1px solid #ccc;
   font-size: 20px;
   line-height: 24px;
@@ -94,7 +94,7 @@ section:after {
 }
 
 section img {
-  width: 64%;
+  width: 44%;
   margin: 0 0 10px 4%;
 }
 
