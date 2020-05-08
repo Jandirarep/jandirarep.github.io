@@ -50,7 +50,7 @@ header ul {
 }
 
 header li {
-  border-left: 1px solid #ccc;
+  border-left: 2px solid #ccc;
 }
 
 header li:first-child {
@@ -60,7 +60,7 @@ header li:first-child {
 header li a {
   display: block;
   padding: 0 10px;
-  color: #fff;
+  color: #0928c1;
   font-size: 23px;
   line-height: 25px;
   text-decoration: none;
@@ -81,7 +81,7 @@ input#control-nav {
 
 /* content */
 section {
-  padding: 180px 90px 60px;
+  padding: 150px 80px 60px;
   border-top: 1px solid #ccc;
   font-size: 20px;
   line-height: 24px;
@@ -146,8 +146,8 @@ section p {
 }
 
 .highlights-button:hover {
-  border: 1px solid #ececec;
-  background-color: #ccc;
+  border: 1px solid #0c36d0;
+  background-color: #dedede;
 }
 
 .highlights-buttons {
@@ -201,7 +201,7 @@ section p {
   z-index: 2;
   opacity: 0;
   border-radius: 3px;
-  background: #fff;
+  background: #f8fb3a;
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
