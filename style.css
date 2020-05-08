@@ -22,18 +22,18 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000000;
-  text-shadow: 0 0px 0 #0a0909;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
 }
 
 header {
-  min-height: 80px;
+  min-height: 60px;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   border-bottom: 1px solid #ccc;
-  background: #3c3c3c;
+  background: #ECECEC;
   z-index: 2;
 }
 
@@ -50,7 +50,7 @@ header ul {
 }
 
 header li {
-  border-left: 2px solid #ccc;
+  border-left: 1px solid #ccc;
 }
 
 header li:first-child {
@@ -60,9 +60,9 @@ header li:first-child {
 header li a {
   display: block;
   padding: 0 10px;
-  color: #0928c1;
-  font-size: 23px;
-  line-height: 25px;
+  color: #999;
+  font-size: 16px;
+  line-height: 30px;
   text-decoration: none;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -81,7 +81,7 @@ input#control-nav {
 
 /* content */
 section {
-  padding: 150px 80px 60px;
+  padding: 80px 20px 50px;
   border-top: 1px solid #ccc;
   font-size: 20px;
   line-height: 24px;
@@ -146,8 +146,8 @@ section p {
 }
 
 .highlights-button:hover {
-  border: 1px solid #0c36d0;
-  background-color: #dedede;
+  border: 1px solid #ececec;
+  background-color: #ccc;
 }
 
 .highlights-buttons {
@@ -201,7 +201,7 @@ section p {
   z-index: 2;
   opacity: 0;
   border-radius: 3px;
-  background: #f8fb3a;
+  background: #fff;
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
