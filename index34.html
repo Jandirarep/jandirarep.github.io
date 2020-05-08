@@ -4,24 +4,58 @@
 <link rel="stylesheet" type="text/css" href="estilos.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-  
-  
+<html>
+<nav>
+        <div id="logo">JANDIRA REPRESENTAÇÕES</div>
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">EMPRESA</label>
+                    <a href="#">EMPRESA</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Onde estamos</a></li>
+                    </ul> 
+
+                </li>
+                <li>
+
+                <!-- First Tier Drop Down -->
+                <label for="drop-2" class="toggle">Web Design +</label>
+                <a href="#">Web Design</a>
+                <input type="checkbox" id="drop-2"/>
+                <ul>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li>
+                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-3" class="toggle">Tutorials +</label>
+                    <a href="#">Tutorials</a>         
+                    <input type="checkbox" id="drop-3"/>
+
+                    <ul>
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <p> A simple dropdown navigation menu made with CSS Only. Dropdowns are marked with a plus sign ( + )</p>
+        <p> Resize the screen to see the look if the screen is smaller then 768px </p>
+</html>
   
 </html>
