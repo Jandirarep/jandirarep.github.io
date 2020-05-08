@@ -22,8 +22,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-  text-shadow: 0 1px 0 #fff;
+  color: #000000;
+  text-shadow: 0 0px 0 #0a0909;
 }
 
 header {
