@@ -433,4 +433,19 @@ input[id*="modal_"]:checked + div.modal .modal-content {
     font-size: 20px;
     line-height: 40px;
   }
-}
+
+@media(min-width: 641px) {
+    ...
+} 
+/*-- SMALL DESKTOP --*/
+@media(min-width: 768px) {
+    ...
+} 
+/*-- DESKTOP --*/
+@media(min-width: 992px) {
+    ...
+} 
+/*-- BIG DESKTOP (rarely used, but can be useful) --*/
+@media(min-width: 1280px) {
+    ...
+} 
