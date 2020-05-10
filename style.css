@@ -381,9 +381,9 @@ input[id*="modal_"]:checked + div.modal .modal-content {
     visibility: hidden;
     -webkit-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
   }
 
   .highlights-item p {
