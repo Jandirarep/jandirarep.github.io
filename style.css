@@ -69,7 +69,7 @@ header li a {
 }
 
 header li a:hover {
-  color: #333;
+  color: lightblue;
 }
 
 input#control-nav {
