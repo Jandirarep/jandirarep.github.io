@@ -69,7 +69,7 @@ header li a {
 }
 
 header li a:hover {
-  color: lightblue;
+  color: yellow;
 }
 
 input#control-nav {
@@ -161,7 +161,7 @@ section p {
   width: 15px;
   height: 15px;
   margin: 0 10px; 
-  border-radius: 10px;
+  border-radius: 0px;
   background-color: #ccc;
   cursor: pointer;
   position: relative;
