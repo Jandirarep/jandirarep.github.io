@@ -146,7 +146,7 @@ section p {
 }
 
 .highlights-button:hover {
-  border: 1px solid #ececec;
+  border: 0px solid #ececec;
   background-color: #ccc;
 }
 
