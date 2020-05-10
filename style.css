@@ -434,18 +434,27 @@ input[id*="modal_"]:checked + div.modal .modal-content {
     line-height: 40px;
   }
 
-@media(min-width: 641px) {
-    ...
-} 
-/*-- SMALL DESKTOP --*/
-@media(min-width: 768px) {
-    ...
-} 
-/*-- DESKTOP --*/
-@media(min-width: 992px) {
-    ...
-} 
-/*-- BIG DESKTOP (rarely used, but can be useful) --*/
-@media(min-width: 1280px) {
-    ...
-} 
+
+  html {
+    display: table;
+    width: 100%;
+}
+body {
+    display: table-row;
+    width: 100%;
+}
+div {
+    display: table-cell;
+    background-color: #EFEFEF;
+    min-width: 200px;
+}
+div.middle {
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+div.inthemiddle {
+    text-align: left;
+    display: inline-block;
+    margin: 0px auto;
+}
