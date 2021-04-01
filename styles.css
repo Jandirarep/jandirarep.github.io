@@ -3,16 +3,16 @@
 }
 
 .content {
-    background-color: lightblue;
-    width: 60%;
+    background-color: lightbrown;
+    width: 50%;
     float: left;
 }
 .sidebar {
     top: 0px;
     right: 0px;
-    width: 38%; /* 100% - .content.width */
+    width: 50%; /* 100% - .content.width */
     float: left;
-    background-color: lightgreen;
+    background-color: lightyellow;
 }
 /* Responsive bit*/
 @media only screen and (max-width: 320px) {
