@@ -1,61 +1,141 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="estilos.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-<html>
-<nav>
-        <div id="logo">JANDIRA REPRESENTAÇÕES</div>
+* {
+  box-sizing: border-box;
+}
 
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop" />
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <!-- First Tier Drop Down -->
-                    <label for="drop-1" class="toggle">EMPRESA</label>
-                    <a href="#">EMPRESA</a>
-                    <input type="checkbox" id="drop-1"/>
-                    <ul>
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Equipe</a></li>
-                        <li><a href="#">Onde estamos</a></li>
-                    </ul> 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-                </li>
-                <li>
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
 
-                <!-- First Tier Drop Down -->
-                <label for="drop-2" class="toggle">Web Design +</label>
-                <a href="#">Web Design</a>
-                <input type="checkbox" id="drop-2"/>
-                <ul>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="#">Links</a></li>
-                    <li>
-                       
-                    <!-- Second Tier Drop Down -->        
-                    <label for="drop-3" class="toggle">Tutorials +</label>
-                    <a href="#">Tutorials</a>         
-                    <input type="checkbox" id="drop-3"/>
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
 
-                    <ul>
-                        <li><a href="#">HTML/CSS</a></li>
-                        <li><a href="#">jQuery</a></li>
-                        <li><a href="#">Other</a></li>
-                    </ul>
-                    </li>
-                </ul>
-                </li>
-                <li><a href="#">Graphic Design</a></li>
-                <li><a href="#">Inspiration</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <p> A simple dropdown navigation menu made with CSS Only. Dropdowns are marked with a plus sign ( + )</p>
-        <p> Resize the screen to see the look if the screen is smaller then 768px </p>
-</html>
-  
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Chania</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Empresa</h1>
+    <p>Jandira Representações</p>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Quem somos?</h2>
+      <p>Representamos marcas</p>
+      <h2>Where?</h2>
+      <p>Em Santa Catarina</p>
+      <h2>How?</h2>
+      <p>You can reach Chania airport from all over Europe.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
 </html>
