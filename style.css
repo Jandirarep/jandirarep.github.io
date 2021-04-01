@@ -26,26 +26,6 @@ body {
   text-shadow: 0 0px 0 #fff;
 }
 
-.parent {
-  position: relative;
-}
-
-.content {
-    background-color: lightblue;
-    width: 60%;
-    float: left;
-}
-.sidebar {
-    top: 0px;
-    right: 0px;
-    width: 38%; /* 100% - .content.width */
-    float: left;
-    background-color: lightgreen;
-}
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
