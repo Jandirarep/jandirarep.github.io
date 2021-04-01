@@ -26,7 +26,6 @@ body {
   text-shadow: 0 0px 0 #fff;
 }
 
-
 .parent {
   position: relative;
 }
@@ -37,8 +36,8 @@ body {
     float: left;
 }
 .sidebar {
-    top: 2px;
-    right: 110px;
+    top: 0px;
+    right: 0px;
     width: 38%; /* 100% - .content.width */
     float: left;
     background-color: lightgreen;
