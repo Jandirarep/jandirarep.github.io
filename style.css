@@ -26,6 +26,34 @@ body {
   text-shadow: 0 0px 0 #fff;
 }
 
+
+.parent {
+  position: relative;
+}
+
+.content {
+    background-color: lightblue;
+    width: 60%;
+    float: left;
+}
+.sidebar {
+    top: 2px;
+    right: 110px;
+    width: 38%; /* 100% - .content.width */
+    float: left;
+    background-color: lightgreen;
+}
+/* Responsive bit*/
+@media only screen and (max-width: 320px) {
+.content {
+    background-color: orange;
+    width: 100%;
+}
+.sidebar {
+    background-color: red;
+    width: 100%;
+}
+}
 header {
   min-height: 60px;
   position: fixed;
