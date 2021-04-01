@@ -4,13 +4,13 @@
 
 .content {
     background-color: lightbrown;
-    width: 50%;
+    width: 60%;
     float: left;
 }
 .sidebar {
     top: 0px;
     right: 0px;
-    width: 50%; /* 100% - .content.width */
+    width: 0%; /* 100% - .content.width */
     float: left;
     background-color: lightyellow;
 }
